@@ -1,0 +1,13 @@
+{
+  "$schema": "https://shadcn-svelte.com/schema.json",
+  "style": "default",
+  "tailwind": {
+    "config": "/workspace/sveltekickstart/kickstart/tailwind.config.js",
+    "css": "/workspace/sveltekickstart/kickstart/src/app.postcss",
+    "baseColor": "stone"
+  },
+  "aliases": {
+    "components": "$lib/components",
+    "utils": "$lib/utils"
+  }
+}
