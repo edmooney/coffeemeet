@@ -1,8 +1,3 @@
-<script>
-
-import Hero from '$lib/components/Hero.svelte';
-</script>
-
 <div class="navbar bg-base-100">
   <div class="navbar-start">
     <div class="dropdown">
@@ -41,9 +36,4 @@ import Hero from '$lib/components/Hero.svelte';
   <div class="navbar-end">
     <a class="btn">Button</a>
   </div>
-</div>
-<div class="container mx-auto">
-  <Hero/>
-
-
 </div>
