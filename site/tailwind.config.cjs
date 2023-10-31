@@ -10,7 +10,7 @@
 
 
 module.exports = {
-  content: ['./src/routes/**/*.{svelte,js,ts}'],
+  content: ['./src/**/*.{html,js,svelte,ts}'],
   daisyui: {
       themes: ['acid','corporate','cupcake']
     },
