@@ -7,5 +7,4 @@ import Hero from '$lib/components/Hero.svelte';
 <div class="container mx-auto">
   <Hero/>
 
-
 </div>
