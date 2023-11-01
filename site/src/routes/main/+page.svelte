@@ -1,9 +1,15 @@
 <script>
+
+
+
     let userfriendly = "Ed";
     let previouscnt = 3;
     let possname = "Jen Smith";
     let funfact = "Fun Fact: Likes tacos and green salsa";
-
+    
+    let randomc1 = null;
+    let randomc2 = null;
+    let randomc3 = null;
     //fetch userdata
     let promise = fetch('http://localhost:5173/data/mockuserdata.json').then((x) => x.json());
     console.log(promise);
@@ -27,8 +33,8 @@
  
 ...loading...
 
-
 {:then value}
+
 
 
 {#each value as u, index}
